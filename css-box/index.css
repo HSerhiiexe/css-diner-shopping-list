@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+   }
+   html {
+    height: 100%;
+   }
+   html,
+   body {
+    min-height: 100%;
+   }
+   *,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+body{
+    background-color: #3399cc;
+}
+.ba-container
+{
+    max-width: 800px;
+    margin: 0 uato;
+    padding: 0 20px;
+}
+
+.ba-cities-list
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ba-city
+{
+    border: 2px solid #fff;
+    background-color: #33cccc;
+    display: inline-block;
+    width: 25%;
+}
